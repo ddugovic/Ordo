@@ -29,11 +29,6 @@ install:
 clean:
 	rm -f *.o *~ myopt/*.o ordo-v*.tar.gz ordo-v*-win.zip *.out
 
-
-
-
-
-
-
-
+check:
+	touch games.pgn && ./$(EXE) -p games.pgn
 
